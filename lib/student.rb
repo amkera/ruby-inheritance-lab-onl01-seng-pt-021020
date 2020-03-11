@@ -9,7 +9,6 @@ class Student < User
   
   def learn(string_of_knowledge)
     @knowledge << self.teach 
-    binding.pry
   end 
     
   
